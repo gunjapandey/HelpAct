@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+body{
+background-image : url('download.jpg');
+background-repeat: no-repeat;
+background-size: 1500px 900px;
+}
+
+.navbar {
+  width: 100%;
+  
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #C0C0C0;
+  text-shadow: 2px 2px #000000;
+  text-shadow:3px 3px 3px black;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+
+  .logo
+    {
+      position: absolute;
+      top: 60px;
+      left: 80px;
+    }
+  }
+    .btn {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Green */
+.success {
+  border-color: #4CAF50;
+  color: green;
+}
+
+.success:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Blue */
+.info {
+  border-color: #2196F3;
+  color: dodgerblue;
+}
+
+.info:hover {
+  background: #2196F3;
+  color: white;
+}
+
+/* Orange */
+.warning {
+  border-color: #ff9800;
+  color: orange;
+}
+
+.warning:hover {
+  background: #ff9800;
+  color: white;
+}
+
+/* Red */
+.danger {
+  border-color: #f44336;
+  color: red;
+}
+
+.danger:hover {
+  background: #f44336;
+  color: white;
+}
+
+/* Gray */
+.default {
+  border-color: pink;
+  color: black;
+}
+
+.default:hover {
+  background: pink;
+
+}
+h1 {
+  text-shadow: 2px 2px #000000;
+}
+</style>
+<body>
+	<center><h1 style="color:white;">H E L P A C T</h1></center>
+
+<p style="color:white;">Because everyone should,so should we</p>
+<div class="navbar">
+  <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a> 
+  <a href="#"><i class="fa fa-fw fa-search"></i> Search</a> 
+  <a href="#"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+  <a href="#"><i class="fa fa-fw fa-user"></i> Login</a>
+  <a href="aboutus.html"><i class="fa fa-fw fa-user"></i>About us</a>
+  
+</div>
+<h1 style="color:white;font-family:'Courier New;">FROM MEDICAL TO EDUCATION YOUR HELP IS HERE!</h1>
+<h1 style="color:white;font-family:cursive";>SELECT THE TYPE OF FUNDRAISER YOU WOULD LIKE TO CREATE:</h1>
+<br>
+<button class="btn success">Medical</button>
+<button class="btn info">Education</button>
+<button class="btn warning">Help in Pandemic</button>
+<button class="btn danger">Start up</button>
+<button class="btn default">Poverty</button>
+<br>
+<br>
+<br>
+<br>
+<h1 style="color:white;font-family:cursive;">SELECT THE TARGET AMOUNT YOU WOULD LIKE TO RAISE</h1>
+<button class="btn success">Rs. 5000</button>
+<button class="btn info">Rs. 10000</button>
+<button class="btn warning">Rs. 50000</button>
+<button class="btn danger">Rs 1 lac</button>
+<button class="btn default">Enter for more amount</button>
+<br>
+<br>
+<center><button class="btn success" onclick='location.href="application.html"' >PROCEED</button></center>
+
+
+</body>
+</html> 
